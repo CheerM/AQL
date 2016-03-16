@@ -1,0 +1,70 @@
+Processing Travel Destinations.txt
+View: TopNumberPlace
++----------------------------------+-----------------+----------------------------+
+|rankplace                         |rank             |place                       |
++----------------------------------+-----------------+----------------------------+
+|Top 10 Saint Helena ::(44,65)     |Top 10:(44,50)   |Saint Helena ::(51,65)      |
+|Top 9 Green Coast ::(535,554)     |Top 9:(535,540)  |Green Coast ::(541,554)     |
+|Top 8 Bavaria ::(1047,1062)       |Top 8:(1047,1052)|Bavaria ::(1053,1062)       |
+|Top 7 Hawaii ::(1350,1364)        |Top 7:(1350,1355)|Hawaii ::(1356,1364)        |
+|Top 6 Auvergne ::(1627,1643)      |Top 6:(1627,1632)|Auvergne ::(1633,1643)      |
+|Top 5 Waiheke Island ::(2011,2033)|Top 5:(2011,2016)|Waiheke Island ::(2017,2033)|
+|Top 4 Friuli ::(2278,2292)        |Top 4:(2278,2283)|Friuli ::(2284,2292)        |
+|Top 3 Vinales Valley ::(2608,2630)|Top 3:(2608,2613)|Vinales Valley ::(2614,2630)|
+|Top 2 West Iceland ::(2907,2927)  |Top 2:(2907,2912)|West Iceland ::(2913,2927)  |
+|Top 1 Transylvania ::(3192,3212)  |Top 1:(3192,3197)|Transylvania ::(3198,3212)  |
++----------------------------------+-----------------+----------------------------+
+10 rows in set
+
+View: Photoer
++--------------------+
+|photoer             |
++--------------------+
+|Photo:IC:(522,530)  |
+|Photo:IC:(1034,1042)|
+|Photo:IC:(1337,1345)|
+|Photo:IC:(1614,1622)|
+|Photo:IC:(1998,2006)|
+|Photo:IC:(2265,2273)|
+|Photo:IC:(2595,2603)|
+|Photo:IC:(2894,2902)|
+|Photo:IC:(3179,3187)|
+|Photo:IC:(3412,3420)|
++--------------------+
+10 rows in set
+
+Processing Crowded Destinations.txt
+View: TopNumberPlace
++-----------------------------------------+------------------+-----------------------------------+
+|rankplace                                |rank              |place                              |
++-----------------------------------------+------------------+-----------------------------------+
+|Top 1 The Forbidden City ::(54,80)       |Top 1:(54,59)     |The Forbidden City ::(60,80)       |
+|Top 2 Badaling Great Wall ::(910,937)    |Top 2:(910,915)   |Badaling Great Wall ::(916,937)    |
+|Top 3 The Bund Of Shanghai ::(1053,1081) |Top 3:(1053,1058) |The Bund Of Shanghai ::(1059,1081) |
+|Top 4 West Lake ::(1200,1217)            |Top 4:(1200,1205) |West Lake ::(1206,1217)            |
+|Top 5 Sun Yat Sen Mausoleum ::(1421,1450)|Top 5:(1421,1426) |Sun Yat Sen Mausoleum ::(1427,1450)|
+|Top 6 Jiuzhaigou Valley ::(1536,1561)    |Top 6:(1536,1541) |Jiuzhaigou Valley ::(1542,1561)    |
+|Top 7 Longmen Grottoes ::(1649,1673)     |Top 7:(1649,1654) |Longmen Grottoes ::(1655,1673)     |
+|Top 8 Ciqikou Ancient Town ::(1784,1812) |Top 8:(1784,1789) |Ciqikou Ancient Town ::(1790,1812) |
+|Top 9 Chunxi Road ::(1896,1915)          |Top 9:(1896,1901) |Chunxi Road ::(1902,1915)          |
+|Top 10 Xitang Ancient Town ::(2099,2127) |Top 10:(2099,2105)|Xitang Ancient Town ::(2106,2127)  |
++-----------------------------------------+------------------+-----------------------------------+
+10 rows in set
+
+View: Photoer
++----------------------+
+|photoer               |
++----------------------+
+|Photo:Xinhua:(315,327)|
+|Photo:IC:(1040,1048)  |
+|Photo:IC:(1187,1195)  |
+|Photo:IC:(1408,1416)  |
+|Photo:IC:(1523,1531)  |
+|Photo:IC:(1636,1644)  |
+|Photo:IC:(1771,1779)  |
+|Photo:IC:(1883,1891)  |
+|Photo:IC:(2086,2094)  |
+|Photo:IC:(2216,2224)  |
++----------------------+
+10 rows in set
+

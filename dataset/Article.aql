@@ -1,0 +1,39 @@
+create view Number as
+	extract regex /[0-9]+/
+		on D.text as number
+	from Document D;
+
+create view FirstUpperName as
+	extract regex /[A-Z][a-z]+/
+		on D.text as word
+	from Document D;
+
+create view Destinations as
+	extract pattern <F.word> {1, 5} /\:/
+	return group 0 as destination
+	from FirstUpperName F; 
+
+create view TopNumber as
+	extract pattern /Top/ (<N.number>)
+	return group 0 as topnumber
+	from Number N;
+
+create view TopNumberPlace as
+	extract pattern (<T.topnumber>) (<D.destination>)
+	return group 0 as rankplace
+	and group 1 as rank
+	and group 2 as place
+	from TopNumber T, Destinations D;
+
+create view Photo as
+	extract regex /Photo/
+		on D.text as photo
+	from Document D;
+
+create view Photoer as
+	extract pattern <P.photo> /\:/ <Token>
+	return group 0 as photoer
+	from Photo P;
+
+output view TopNumberPlace;
+output view Photoer;
